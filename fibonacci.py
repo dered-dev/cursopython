@@ -20,7 +20,7 @@ def fibonacciSequence(count_number) :
             counter += 1
 
 # get user limit
-userNumber = int(input("¿Cuántos numeros necesitas? "))
+userNumber = int(input("¿Cuántos números necesitas? "))
 
 # invoque function
 fibonacciSequence(userNumber)
