@@ -26,10 +26,10 @@ stackList = Stack()
 
 print(stackList.isEmpty())
 stackList.push(3)
+print(stackList.getLast())
 stackList.push('Cat')
 stackList.push(True)
 
-print(stackList.getLast())
 
 print(stackList.size())
 print(stackList.isEmpty())
