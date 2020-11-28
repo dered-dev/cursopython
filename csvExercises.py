@@ -9,7 +9,7 @@ def csvfile(filename):
     return list_items
 
 def getCsvFile(filename, row_list):
-    with open(filename, "w", newline = "") as output:
+    with open(filename, 'w', newline = '') as output:
         writer = csv.writer(output)
         writer.writerows(row_list)
 
