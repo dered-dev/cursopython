@@ -13,7 +13,7 @@ class Stack:
     def pop(self):
         return self.items.pop()
 
-    def viewItems(self):
+    def getLast(self):
         return self.items[ len(self.items) - 1 ]
 
     def size(self):
@@ -29,7 +29,7 @@ stackList.push(3)
 stackList.push('Cat')
 stackList.push(True)
 
-print(stackList.viewItems())
+print(stackList.getLast())
 
 print(stackList.size())
 print(stackList.isEmpty())
@@ -39,4 +39,4 @@ stackList.push(100)
 print(stackList.pop())
 print(stackList.pop())
 print(stackList.size())
-print(stackList.viewItems())
+print(stackList.getLast())
